@@ -1,0 +1,8 @@
+USE master;
+GO
+
+RESTORE VERIFYONLY
+FROM DISK =
+'D:\TEST\MSSQL\BACKUP\InventoryManagement_Full.bak'
+WITH CHECKSUM;
+GO
