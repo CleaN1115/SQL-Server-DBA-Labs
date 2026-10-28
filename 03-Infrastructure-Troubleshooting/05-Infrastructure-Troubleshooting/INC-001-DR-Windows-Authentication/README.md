@@ -97,12 +97,9 @@ WHERE session_id = @@SPID;
 
 ## Evidence
 
-Add sanitized screenshots to [`evidence/`](evidence/) and link them here. Suggested names:
-
 - `01-ssms-sspi-error.png`
 - `02-hyperv-insufficient-memory.png`
 - `03-ping-dc-success.png`
 - `04-dns-forward-lookup.png`
 - `05-ssms-connected.png`
 
-**Privacy note:** Before uploading screenshots to a public repository, redact any account usernames, real domain names, machine IDs, internal addresses you prefer not to disclose, and other sensitive information.
