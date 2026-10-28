@@ -95,4 +95,14 @@ WHERE session_id = @@SPID;
 
 > In my personal Hyper-V SQL Server lab, Windows Authentication to a DR instance failed with an SSPI context error. I checked infrastructure dependencies and found the domain controller was offline. Hyper-V initially couldn't restart it because of insufficient host memory. After safely shutting down an unused VM, I restarted the domain controller, validated IP connectivity and DNS name resolution, and successfully reconnected to SQL Server. The exercise reinforced a layered troubleshooting approach and the importance of verifying dependencies before changing SQL Server configuration.
 
+## Evidence
 
+Add sanitized screenshots to [`evidence/`](evidence/) and link them here. Suggested names:
+
+- `01-ssms-sspi-error.png`
+- `02-hyperv-insufficient-memory.png`
+- `03-ping-dc-success.png`
+- `04-dns-forward-lookup.png`
+- `05-ssms-connected.png`
+
+**Privacy note:** Before uploading screenshots to a public repository, redact any account usernames, real domain names, machine IDs, internal addresses you prefer not to disclose, and other sensitive information.
